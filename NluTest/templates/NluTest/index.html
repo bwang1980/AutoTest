@@ -1,0 +1,9 @@
+{% if cases %}
+    <ul>
+        {% for c in cases %}
+        <li>{{ c.qus }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+<p>No cases</p>
+{% endif %}
